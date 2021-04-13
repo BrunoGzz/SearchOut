@@ -7,7 +7,7 @@ Página del proyecto: **http://searchout.tk**
 *Servicios* | **SearchOut** | **Google**
 ------------ | ------------ | -------------
 Elegir página de resultados | ✅ | 🚫
-Rápidez al encontrar lo que buscas | ✅  | 🚫
+Rapidez al encontrar lo que buscas | ✅  | 🚫
 Sugerencias de autocompletar | 🚫 | ✅ 
 
 * Lincencias: **CC by-sa** (https://www.safecreative.org/work/2103187219826-searchout):
