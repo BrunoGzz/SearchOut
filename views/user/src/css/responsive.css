@@ -1,0 +1,59 @@
+@media screen and (max-width:500px) {
+
+ body{
+ 	width: 100%;
+ }
+
+ #name-span-cc, #nameweb-span-cc{
+ 	display: none;
+ }
+
+ #logo{
+ 	margin-top: 30%;
+ 	padding: 20px;
+ }
+ #logo-img{
+ 	width: 240px;
+ }
+
+ footer{
+ 	text-align: center;
+ }
+
+ #search-wrapper{
+ 	width: 85%;
+  	max-width: 470px;
+  	padding-right: 0px;
+    padding-left: 0px;
+ }
+}
+
+@media screen and (min-width:600px){
+[data-title]:hover:after {
+    opacity: 1;
+    transition: all 0.1s ease 0.5s;
+    visibility: visible;
+}
+
+[data-title]:after {
+    content: attr(data-title);
+    padding: 3px 20px;
+    bottom: -1.6em;
+    left: 100%;
+    white-space: nowrap;
+    box-shadow: 1px 1px 3px #222222;
+    opacity: 0;
+    z-index: 99999;
+    visibility: hidden;
+    position: absolute;
+    font-family: arial;
+    background-color: #666;
+    border-radius: 8px;
+    color: #fff;
+    font-size: .8125rem;
+    padding: 10px 15px;
+}
+[data-title] {
+    position: relative;
+}
+}

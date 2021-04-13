@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+html{
+	margin: 0;
+	padding: 0;
+	-moz-user-select: none; 
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+   width: 100%;
+   height: 100%;
+   min-height: 100%;
+}
+
+body{  
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin:0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+#header{
+	height: 50px;
+  padding: 5px;
+}
+
+#search-wrapper {
+  display: inline-flex;
+  width: 50%;
+  max-width: 500px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+#search-wrapper #search {
+  background-color: white;
+  border: 1px solid #d9d9d9;
+  border-right: 0;
+  border-radius: 6px 0 0 6px;
+  padding: 12px;
+  font-family: 'Verdana';
+  font-size: 15px;
+  font-weight: lighter;
+  -webkit-transition: border-color .2s ease;
+  transition: border-color .2s ease;
+  width: 100%;
+}
+
+#search-wrapper #search + #send {
+  background-color: white;
+  border: none;
+  border-radius: 0 6px 6px 0;
+  border-left: 0;
+  color: #ccc;
+  padding: .67rem .65rem;
+  -webkit-transition: border-color .2s ease;
+  transition: border-color .2s ease;
+}
+#search-wrapper #search:focus {
+  outline: none;
+}
+
+#main-content{
+margin-top: 3%;
+text-align: center;
+}
+
+#search-wrapper #search + #send{
+  background-color: white;
+  border: 1px solid #d9d9d9;
+  border-radius: 0 6px 6px 0;
+  border-left: 0;
+  color: #408fec;
+  padding: .67rem .65rem;
+  -webkit-transition: border-color .2s ease;
+  transition: border-color .2s ease;
+}
+
+#search #send{
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+#send{
+  cursor: pointer;
+  outline:none;
+}
+
+#micro{
+  cursor: pointer;
+  outline: none;
+}
+
+.fas{
+	font-size: 20px;
+}
+
+#logo{
+	display: block;
+    text-align: center;
+    margin-top: 5%;
+    -moz-user-select: none; 
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+   pointer-events: none;
+}
+
+#plus-icon{
+  padding: 8px;
+  color: #408fec;
+  font-size: 30px;
+  border-radius: 100%;
+  position: relative;
+  float: right;
+  transition: .2s;
+}
+
+#plus-icon:hover{
+  color: #fff;
+  background: #408fec
+}
+
+#create-button{
+  outline: none;
+  background: transparent;
+  border: none;
+  float: right;
+}
+
+#main-content-create{
+  border: 1px solid #d9d9d9;
+  border-radius: 15px;
+  width: 30%;
+  text-align: center; 
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 1%;
+  font-family: nunito;
+  color: #408fec;
+}
+
+#search-engine-name-input{
+  margin-bottom: 8%;
+}
+
+#description-text-create-pages{
+  color: gray;
+}
+
+#submit-button-create-searcher{
+  border: 1px solid #408fec;
+  color: white;
+  width: 100px;
+  height: 40px;
+  background: #408fec;
+  border-radius: 6px;
+  margin-top: 3%;
+  outline: none;
+  cursor: pointer;
+}
+
+.create-input{
+  height: 40px;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  outline: none;
+  width: 80%;
+  padding: 2px;
+  font-size: 1.13rem;
+  margin: 10px;
+
+}
+
+#title-page-creator{
+  font-size: 35px;
+}
+
+#searcher select{
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+#searcher select::-ms-expand {
+    display: none;
+    display: block;
+    text-align: center;
+}
+
+#searcher{
+	position: relative;
+	margin-top: 20px;
+	display: block;
+    text-align: center;
+  flex-grow: 1;
+}
+
+#searcher select{
+	cursor: pointer;
+  	padding: 7px 10px;
+  	height: 42px;
+  	outline: 0; 
+  	border: 0;
+	background: white;
+	font-size: 16px;
+	color: #999;
+	font-family: Arial;
+	border:1px solid #d9d9d9;
+    border-radius: 6px;
+    position: relative;
+    transition: all 0.25s ease;
+}
+ 
+option:hover{
+	background: #408fec;
+	color: white;
+}
+
+option{
+	border: 1px solid #d9d9d9;
+}
+
+#search-text{
+  position: absolute;
+  font-family: arial;
+  background: #666;
+  border-radius: 8px;
+  color: #fff;
+  font-size: .8125rem;
+  padding: 10px 15px;
+}
+
+footer{
+  width: 100%;
+    height: 35px; 
+    max-height: 35px;
+    background: #f2f2f2;
+    color: white; 
+    border-top: 1px solid #dadce0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  a{
+    color: #70757a;
+    text-decoration: none;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: normal;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 10px;
+  }
+  a:active{
+    color: #70757;
+    text-decoration: underline;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+  .footer-name{
+    position: relative;
+    display: inline-block;
+    padding: 8px;
+  }
+  .footer-name{
+    position: relative;
+    display: inline-block;
+    padding: 8px;
+  }
