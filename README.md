@@ -1,4 +1,9 @@
 # SearchOut
+<p>
+ <a href="https://github.com/BrunoGzz/SearchOut">
+  <img src="https://github.com/BrunoGzz/BrunoGzz/blob/main/images/searchout.png?raw=true"></img>
+</a>
+</p></br></br>
 Un multi buscador creado en **PHP** basado en la estructura MVC.</br></br>
 SearchOut te permite buscar en: Google, Amazon, Yahoo, Bing, Youtube, Twitter, Facebook (sesión ya iniciada), Pinterest, DuckDuckGo, Wikipedia, Twitch y Google Scholar.
 </br></br>
@@ -20,5 +25,3 @@ Sugerencias de autocompletar | 🚫 | ✅
 * Colaboradores:
   * Bruno Rodríguez (Desarollador y creador) y
   * Rebeca Ramos (Corrección y traducción)
-
-Este proyecto ya está finalizado y por eso no se actualizará nunca.
