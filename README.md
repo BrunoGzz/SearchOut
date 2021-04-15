@@ -1,14 +1,16 @@
 # SearchOut
-<p>
- <a href="https://github.com/BrunoGzz/SearchOut">
-  <img src="https://github.com/BrunoGzz/BrunoGzz/blob/main/images/searchout.png?raw=true"></img>
-</a>
-</p></br></br>
-Un multi buscador creado en **PHP** basado en la estructura MVC.</br></br>
+  <img src="https://github.com/BrunoGzz/BrunoGzz/blob/main/images/searchout.png?raw=true" width="70%">
+</br>
+
+Un multi buscador creado en **PHP** basado en la estructura MVC.
 SearchOut te permite buscar en: Google, Amazon, Yahoo, Bing, Youtube, Twitter, Facebook (sesión ya iniciada), Pinterest, DuckDuckGo, Wikipedia, Twitch y Google Scholar.
-</br></br>
+</br>
+</br>
+
 Página del proyecto: **http://searchout.tk**
-</br></br>
+</br>
+</br>
+
 *Servicios* | **SearchOut** | **Google**
 ------------ | ------------ | -------------
 Elegir página de resultados | ✅ | 🚫
