@@ -94,11 +94,6 @@ text-align: center;
   outline:none;
 }
 
-#micro{
-  cursor: pointer;
-  outline: none;
-}
-
 .fas{
 	font-size: 20px;
 }
@@ -114,85 +109,6 @@ text-align: center;
    pointer-events: none;
 }
 
-#plus-icon{
-  padding: 8px;
-  color: #408fec;
-  font-size: 30px;
-  border-radius: 100%;
-  position: relative;
-  float: right;
-  transition: .2s;
-}
-
-#plus-icon:hover{
-  color: #fff;
-  background: #408fec
-}
-
-#create-button{
-  outline: none;
-  background: transparent;
-  border: none;
-  float: right;
-}
-
-#main-content-create{
-  border: 1px solid #d9d9d9;
-  border-radius: 15px;
-  width: 30%;
-  text-align: center; 
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  padding: 20px;
-  margin-top: 1%;
-  font-family: nunito;
-  color: #408fec;
-}
-
-#search-engine-name-input{
-  margin-bottom: 8%;
-}
-
-#description-text-create-pages{
-  color: gray;
-}
-
-#submit-button-create-searcher{
-  border: 1px solid #408fec;
-  color: white;
-  width: 100px;
-  height: 40px;
-  background: #408fec;
-  border-radius: 6px;
-  margin-top: 3%;
-  outline: none;
-  cursor: pointer;
-}
-
-.create-input{
-  height: 40px;
-  border: 1px solid #d9d9d9;
-  border-radius: 6px;
-  outline: none;
-  width: 80%;
-  padding: 2px;
-  font-size: 1.13rem;
-  margin: 10px;
-
-}
-
-#title-page-creator{
-  font-size: 35px;
-}
-
-#searcher select{
-	appearance: none;
-	-webkit-appearance: none;
-	-moz-appearance: none;
-}
 #searcher select::-ms-expand {
     display: none;
     display: block;
@@ -208,6 +124,9 @@ text-align: center;
 }
 
 #searcher select{
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
 	cursor: pointer;
   	padding: 7px 10px;
   	height: 42px;
@@ -274,11 +193,6 @@ footer{
   }
   a:hover{
     text-decoration: underline;
-  }
-  .footer-name{
-    position: relative;
-    display: inline-block;
-    padding: 8px;
   }
   .footer-name{
     position: relative;
