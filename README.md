@@ -18,10 +18,11 @@ Rapidez al encontrar lo que buscas | ✅  | 🚫
 Sugerencias de autocompletar | 🚫 | ✅ 
 
 * Lincencias: **CC by-sa** (https://www.safecreative.org/work/2103187219826-searchout):
-```<a href="https://www.safecreative.org/work/2103187219826-searchout" target="_blank">
-<span>SearchOut</span> -
-<span>CC by-sa 4.0</span> -
-<span>Bruno Rodríguez</span>
+```
+<a href="https://www.safecreative.org/work/2103187219826-searchout" target="_blank">
+  <span>SearchOut</span> -
+  <span>CC by-sa 4.0</span> -
+  <span>Bruno Rodríguez</span>
 </a>
 ```
 * Colaboradores:
