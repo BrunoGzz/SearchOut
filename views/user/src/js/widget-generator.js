@@ -29,7 +29,7 @@ document.getElementById('generate-code').addEventListener('click', function(){
             height = "56";
         }
         var height_i = Number(height)+20;
-        code = "<iframe frameBorder='0' scrolling='no' width='"+width+"' height='"+height_i+"' allowtransparency='0' src='http://searchout.tk/widget.php?theme="+theme+"&webN1="+encodeURIComponent(webN1)+"&webU1="+encodeURIComponent(webU1)+"&webN2="+encodeURIComponent(webN2)+"&webU2="+encodeURIComponent(webU2)+"&height="+height+"'></iframe>";
+        code = "<iframe frameBorder='0' scrolling='no' width='"+width+"' height='"+height_i+"' allowtransparency='0' src='http://searchout.tk/developers/widget/widget.php?theme="+theme+"&webN1="+encodeURIComponent(webN1)+"&webU1="+encodeURIComponent(webU1)+"&webN2="+encodeURIComponent(webN2)+"&webU2="+encodeURIComponent(webU2)+"&height="+height+"'></iframe>";
         textarea.value = code;
         document.getElementById('preview-container').innerHTML = code;
     }else{
