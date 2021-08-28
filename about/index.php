@@ -1,19 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="./about/style.css">
 	<?php
 	$title = "About - SearchOut";
 	?>
 	<title><?php echo $title;?></title>
 	<meta charset="utf-8">
 	<link rel="icon" type="image/ico" href="../views/user/src/img/icon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 </head>
 <body>
-    <?php
-    include "../views/user/modules/main-header.php";
-    ?>
+<?php include "../views/user/modules/header.php"?>
 	<div id="content">
 		<svg id="take-back-control" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 180 40">
             <defs>
@@ -62,8 +60,8 @@
         	<ul>
         		<li class="li-comming-soon">Create your own search engine.</li>
                 <li class="li-comming-soon">Change language.</li>
-        		<li class="li-comming-soon">Blog.</li>
-        		<li class="li-comming-soon">Responsive web design.</li>
+        		<li class="li-comming-soon">Blog. (Complete)</li>
+        		<li class="li-comming-soon">Responsive web design. (Complete)</li>
         		<li class="li-comming-soon">Autocomplete suggestions.</li>
         	</ul>
         </div>

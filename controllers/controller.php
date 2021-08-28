@@ -3,6 +3,7 @@ class MvcController{
 	public function template(){
 		include "views/user/template.php";
 	}
+
 	public function enlacesPaginasController(){
 		if(isset($_GET["q"])){
 			$enlaces = $_GET["q"];

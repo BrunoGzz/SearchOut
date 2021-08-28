@@ -1,65 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="./about/style.css">
 	<?php
-	$title = "Collaborators - SearchOut";
+	$title = "Colaboradores - SearchOut";
 	?>
-	<title><?php echo $title; ?></title>
-	<script src="../views/user/src/js/icons.js"></script>
+	<title><?php echo $title;?></title>
 	<meta charset="utf-8">
 	<link rel="icon" type="image/ico" href="../views/user/src/img/icon.ico">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+	<meta charset="utf-8">
 	<style type="text/css">
-		@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
-
 		body{
-			padding: 0;
-			margin: 0;
-			height: 100%;
-			width: 100%;
-		}
-
-		#list-collaborators{
-			color: #408fec;
-			font-size: 40px;
-			font-family: arial;
-			padding: 20px;
-			margin-top: 10px;
-		}
-		.name-collaborator{
-			text-decoration: none;
-			color: black;
-			list-style: none;
-			font-family: arial;
-			font-size: 18px;
-			padding: 10px;
-			display: inline;
-		}
-		footer{
-			position: fixed !important;
-		}
-
-		.lupa{
-			display: inline;
-			font-size:15px;
-			color: #FFD700;
-		}
-
-		.div-name-list{
-			padding: 10px;
+			background-image: none;
 		}
 	</style>
 </head>
 <body>
-	<div>
-		<h1 id="list-collaborators">List of collaborators</h1>
-		<ul>
-			<div class="div-name-list"><i class="fas fa-search lupa"></i><li class="name-collaborator">Bruno Rodríguez - Creator and developer</li></div>
-			<div class="div-name-list"><i class="fas fa-search lupa"></i><li class="name-collaborator">Rebeca Ramos - Correction and translation</li></div>
-		</ul>
+<?php include "../views/user/modules/header.php"?>
+<div class="container pt-5">
+	<h1 class="pb-4 mb-5">Partners</h1>
+	<div class="container">
+		<p class="m-4 h5"><i class="bi bi-search h6 p-3 text-primary"></i><strong class="text-dark">Bruno Rodríguez</strong> - Creator and developer</p>
+		<p class="m-4 h5"><i class="bi bi-search h6 p-3 text-primary"></i><strong class="text-dark">Rebeca Ramos</strong> - Correction and translation</p>
+		<p class="m-4 h5"><i class="bi bi-search h6 p-3 text-primary"></i><strong class="text-dark">Zarahy Trejo</strong> - VIP collaborator</p>
+		<p class="m-4 h5"><i class="bi bi-search h6 p-3 text-primary"></i><strong class="text-dark">Sergio Rodríguez</strong> - VIP collaborator</p>
+		<p class="m-4 h5"><i class="bi bi-search h6 p-3 text-primary"></i><strong class="text-dark">Natalia</strong> - VIP collaborator</p>
+		<p class="m-4 h5"><i class="bi bi-search h6 p-3 text-primary"></i><strong class="text-dark">Camino</strong> - VIP collaborator</p>
+		<p class="m-4 h5"><i class="bi bi-search h6 p-3 text-primary"></i><strong class="text-dark">Paco Sanchez</strong> - VIP collaborator</p>
 	</div>
-	<?php
-	include "../views/user/modules/big-footer.php";
-	?>
+</div>
+<?php
+    include "../views/user/modules/big-footer.php";
+?>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 </body>
 </html>
