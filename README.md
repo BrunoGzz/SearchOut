@@ -26,5 +26,4 @@ Sugerencias de autocompletar | 🚫 | ✅
 </a>
 ```
 * Colaboradores:
-  * Bruno Rodríguez (Desarollador y creador) y
-  * Rebeca Ramos (Corrección y traducción)
+  <a href="http://searchout.tk/collaborators" target="_blank"></a>
