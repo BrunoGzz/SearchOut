@@ -26,4 +26,4 @@ Sugerencias de autocompletar | 🚫 | ✅
 </a>
 ```
 * Colaboradores:
-  <a href="http://searchout.tk/collaborators" target="_blank"></a>
+  <a href="http://searchout.tk/collaborators" target="_blank">Lista de colaboradores</a>
